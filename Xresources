@@ -1,0 +1,67 @@
+URxvt.imLocale:	pl_PL.UTF-8
+URxvt*termName: rxvt-unicode-256color
+
+!URxvt*inheritPixmap:            true
+!URxvt*transparent:             	true 
+!URxvt*shading:                  10 
+
+! Urxvt.background:	[50]#000000
+
+! Color scheme
+! special
+*.foreground:   #8ca68c
+*.background:   #131513
+*.cursorColor:  #8ca68c
+
+! black
+*.color0:       #FFFFFF!#131513
+*.color8:       #687d68
+
+! red
+*.color1:       #e6193c
+*.color9:       #e6193c
+
+! green
+*.color2:       #29a329
+*.color10:      #29a329
+
+! yellow
+*.color3:       #c3c322
+*.color11:      #c3c322
+
+! blue
+*.color4:       #3d62f5
+*.color12:      #3d62f5
+
+! magenta
+*.color5:       #ad2bee
+*.color13:      #ad2bee
+
+! cyan
+*.color6:       #1999b3
+*.color14:      #1999b3
+
+! white
+*.color7:       #8ca68c
+*.color15:      #f0fff0
+
+!! URxvt Appearance
+URxvt.font:			xft:Monospace:pixelsize=14:antialias=true
+URxvt.boldFont:			xft:Monospace:pixelsize=14:antialias=true:bold
+URxvt.italicFont:		xft:Monospace:pixelsize=14:antialias=true:italic
+URxvt.boldItalicfont:		xft:Monospace:pixelsize=14:antialias=true:bolditalic
+URxvt.letterSpace: 				0.1
+URxvt.lineSpace: 				0
+URxvt.geometry: 				92x24
+URxvt.internalBorder: 				5
+URxvt.cursorBlink: 				true
+URxvt.cursorUnderline: 				false
+URxvt.saveline: 				2048
+URxvt.scrollBar: 				false
+URxvt.scrollBar_right: 				false
+URxvt.urgentOnBell: 				true
+URxvt.depth: 					32
+!URxvt.iso14755: 				false
+
+! Xft settings
+Xft.antialias: true
