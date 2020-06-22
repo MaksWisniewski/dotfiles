@@ -1,3 +1,3 @@
 ### dotfiles
 
-![] https://github.com/elitamaxim/dotfiles/blob/master/rice.png
+![picture] (https://github.com/elitamaxim/dotfiles/blob/master/rice.png)
