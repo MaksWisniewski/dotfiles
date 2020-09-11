@@ -1,5 +1,4 @@
 syntax on
-
 set timeoutlen=10
 
 filetype off                  
@@ -19,6 +18,7 @@ set scrolloff=4
 set visualbell
 set tabstop=4
 set shiftwidth=4
+set bs=2
 
 "alt + hjkl
 imap h <Left>
@@ -39,7 +39,8 @@ Plug 'jiangmiao/auto-pairs'
 Plug 'morhetz/gruvbox'
 Plug 'maxboisvert/vim-simple-complete'
 
-
 call plug#end()
 
+
+colorscheme gruvbox
 nnoremap <Space>t :bot term ++rows=12<CR>
