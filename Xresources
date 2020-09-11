@@ -7,49 +7,40 @@ URxvt*termName: rxvt-unicode-256color
 
 ! Urxvt.background:	[50]#000000
 
-! Color scheme
-! special
-*.foreground:   #8ca68c
-*.background:   #131513
-*.cursorColor:  #8ca68c
-
-! black
-*.color0:       #FFFFFF!#131513
-*.color8:       #687d68
-
-! red
-*.color1:       #e6193c
-*.color9:       #e6193c
-
-! green
-*.color2:       #29a329
-*.color10:      #29a329
-
-! yellow
-*.color3:       #c3c322
-*.color11:      #c3c322
-
-! blue
-*.color4:       #3d62f5
-*.color12:      #3d62f5
-
-! magenta
-*.color5:       #ad2bee
-*.color13:      #ad2bee
-
-! cyan
-*.color6:       #1999b3
-*.color14:      #1999b3
-
-! white
-*.color7:       #8ca68c
-*.color15:      #f0fff0
+! hard contrast: *background: #1d2021
+*background: #282828
+! soft contrast: *background: #32302f
+*foreground: #ebdbb2
+! Black + DarkGrey
+*color0:  #282828
+*color8:  #928374
+! DarkRed + Red
+*color1:  #cc241d
+*color9:  #fb4934
+! DarkGreen + Green
+*color2:  #98971a
+*color10: #b8bb26
+! DarkYellow + Yellow
+*color3:  #d79921
+*color11: #fabd2f
+! DarkBlue + Blue
+*color4:  #458588
+*color12: #83a598
+! DarkMagenta + Magenta
+*color5:  #b16286
+*color13: #d3869b
+! DarkCyan + Cyan
+*color6:  #689d6a
+*color14: #8ec07c
+! LightGrey + White
+*color7:  #a89984
+*color15: #ebdbb2
 
 !! URxvt Appearance
-URxvt.font:			xft:Monospace:pixelsize=14:antialias=true
-URxvt.boldFont:			xft:Monospace:pixelsize=14:antialias=true:bold
-URxvt.italicFont:		xft:Monospace:pixelsize=14:antialias=true:italic
-URxvt.boldItalicfont:		xft:Monospace:pixelsize=14:antialias=true:bolditalic
+URxvt.font:					xft:Monospace:pixelsize=15:antialias=true
+URxvt.boldFont:				xft:Monospace:pixelsize=15:antialias=true:bold
+URxvt.italicFont:			xft:Monospace:pixelsize=15alias=true:italic
+URxvt.boldItalicfont:		xft:Monospace:pixelsize=15:antialias=true:bolditalic
 URxvt.letterSpace: 				0.1
 URxvt.lineSpace: 				0
 URxvt.geometry: 				92x24
