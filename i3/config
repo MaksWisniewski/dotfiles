@@ -3,7 +3,7 @@
 for_window [class="^.*"] border pixel 0
 smart_gaps on
 smart_borders on
-gaps inner 10 
+gaps inner 6 
 gaps outer 5
 
 
@@ -37,7 +37,7 @@ bindsym XF86MonBrightnessDown exec xbacklight -dec 20 # decrease screen brightne
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
 
-bindsym $mod+Return exec urxvt
+bindsym $mod+Return exec gnome-terminal 
 bindsym $mod+Shift+f exec urxvt -e ranger
 bindsym $mod+Shift+w exec firefox
 
