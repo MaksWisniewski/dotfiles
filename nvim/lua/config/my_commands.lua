@@ -6,3 +6,9 @@ vim.api.nvim_create_user_command("RUN", function()
     vim.cmd("!g++ " .. file .. " -o " .. output)
 end, {})
 
+
+-- CP command: copy whole file to system clipboard
+vim.api.nvim_create_user_command("CP", function()
+    vim.cmd([[ %y+ ]]) -- % = entire file, y = yank, + = system clipboard
+    print("File copied to system clipboard ✅")
+end, {})
