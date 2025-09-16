@@ -10,8 +10,8 @@ opacity = 1
 decorations_theme_variant = "Dark"
 
 [window.dimensions]
-columns = 90
-lines = 40
+columns = 110
+lines = 35
 
 [window.class]
 instance = "Alacritty"

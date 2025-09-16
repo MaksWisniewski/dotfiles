@@ -28,7 +28,7 @@ return {
             ensure_installed = {
                 "lua_ls",
                 "ty",
-                "clangd",
+                "clangd"
             },
             handlers = {
                 function(server_name)
@@ -102,6 +102,7 @@ return {
                 rootPath = vim.fn.expand("$HOME"),
             },
         })
+
     end,
 
     init = function()
